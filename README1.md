@@ -19,7 +19,9 @@ $docker container run -it --name csvserver infracloudio/csvserver bash
 $exit
  
 10. Next I executed "docker ps -a" command to check the running containers and its details. And noted down container id "354b5688c621".
+
 11.Then I executed command "docker start 354b5688c621" to start the container. 
+
 12.Then I executed "docker ps -a" to execute the port "9300/tcp". 
 
 
